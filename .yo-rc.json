@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "EmpDep",
+    "packageName": "io.github.empdep.application",
+    "packageFolder": "io/github/empdep/application",
+    "serverPort": 7030,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "de",
+      "pt-br"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "YzczNTA3YjAzYmFjYWU0YTQxOThiYzUyNDc2NWNhMDFmOTkxOGMzZjJiMzFmOWU3ZWFmMzQ5M2RjZmUzYWJlNzRlNzQ3ZTkzMDY4NzlmNDA4ZTQ3ZTBmZGFhNDA5YzA2OGNmNjJhYTVjOGQzMDYwMDY5NzU2MWIyNDg4YjhiZGE=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "FrancescoBrokkoli",
+  "repository-name": "empdep"
+}
